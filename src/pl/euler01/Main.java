@@ -2,6 +2,7 @@ package pl.euler01;
 
 import pl.euler02.Euler02;
 import pl.euler03.Euler03;
+import pl.euler04.Euler04;
 
 import java.util.Scanner;
 
@@ -43,6 +44,9 @@ public class Main {
         }
         Euler03 euler03 = new Euler03();
         System.out.println(euler03.findPrimes(number));
+
+        Euler04 euler04 = new Euler04();
+        System.out.println(euler04.generateMultiples());
 
 
 
