@@ -22,10 +22,9 @@ public class Euler04 {
     public boolean isPalindrome(long number) {
 
         String str = Long.toString(number);
-        StringBuffer rev = new StringBuffer(str).reverse();
-        String revstr = rev.toString();
+        String rev = new StringBuffer(str).reverse().toString();
 
-        if ( str.equals(revstr)) {
+        if ( str.equals(rev)) {
             return true;
         }
         else
