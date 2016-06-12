@@ -4,6 +4,7 @@ import pl.euler.problem02.Euler02;
 import pl.euler.problem03.Euler03;
 import pl.euler.problem04.Euler04;
 import pl.euler.problem05.Euler05;
+import pl.euler.problem06.Euler06;
 
 import java.util.Scanner;
 
@@ -52,9 +53,8 @@ public class Main {
         Euler05 euler05 = new Euler05();
         System.out.println(euler05.findNumber());
 
-
-
-
+        Euler06 euler06 = new Euler06();
+        System.out.println(euler06.findDiff(10));
     }
 
     public static long findSum(long number) {
