@@ -3,6 +3,7 @@ package pl.euler.problem01;
 import pl.euler.problem02.Euler02;
 import pl.euler.problem03.Euler03;
 import pl.euler.problem04.Euler04;
+import pl.euler.problem05.Euler05;
 
 import java.util.Scanner;
 
@@ -48,6 +49,8 @@ public class Main {
         Euler04 euler04 = new Euler04();
         System.out.println(euler04.generateMultiples());
 
+        Euler05 euler05 = new Euler05();
+        System.out.println(euler05.findNumber());
 
 
 
