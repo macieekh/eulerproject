@@ -1,4 +1,4 @@
-package pl.euler04;
+package pl.euler.problem04;
 
 public class Euler04 {
 

@@ -1,4 +1,4 @@
-package pl.euler02;
+package pl.euler.problem02;
 
 public class Euler02 {
     long fib1 = 1;

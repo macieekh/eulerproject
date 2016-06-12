@@ -1,8 +1,8 @@
-package pl.euler01;
+package pl.euler.problem01;
 
-import pl.euler02.Euler02;
-import pl.euler03.Euler03;
-import pl.euler04.Euler04;
+import pl.euler.problem02.Euler02;
+import pl.euler.problem03.Euler03;
+import pl.euler.problem04.Euler04;
 
 import java.util.Scanner;
 

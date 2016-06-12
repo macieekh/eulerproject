@@ -1,4 +1,4 @@
-package pl.euler03;
+package pl.euler.problem03;
 
 import static java.lang.Math.sqrt;
 
