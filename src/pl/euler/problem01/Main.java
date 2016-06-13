@@ -54,7 +54,8 @@ public class Main {
         System.out.println(euler05.findNumber());
 
         Euler06 euler06 = new Euler06();
-        System.out.println(euler06.findDiff(10));
+        System.out.println(euler06.findDiff(100));
+        System.out.println(euler06.findDiffShort(100));
     }
 
     public static long findSum(long number) {

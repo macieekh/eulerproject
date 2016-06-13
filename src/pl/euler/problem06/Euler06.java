@@ -27,4 +27,16 @@ public class Euler06 {
         return Math.pow(sum, 2);
     }
 
+    public long findDiffShort (long number) {
+        long sum = 0;
+        long sumOfSquares = 0;
+
+        for (int i=1; i<=number; i++) {
+            sum += i;
+            sumOfSquares += i*i;
+        }
+
+        return sum*sum - sumOfSquares;
+    }
+
 }
