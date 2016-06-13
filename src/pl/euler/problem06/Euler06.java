@@ -2,6 +2,8 @@ package pl.euler.problem06;
 
 public class Euler06 {
 
+
+    /* Solution #1 */
     public double findDiff(double number) {
 
         return squareOfSum(number)-sumoOfSquares(number);
@@ -27,6 +29,7 @@ public class Euler06 {
         return Math.pow(sum, 2);
     }
 
+    /* Solution #2 - refactored and shortened */
     public long findDiffShort (long number) {
         long sum = 0;
         long sumOfSquares = 0;
