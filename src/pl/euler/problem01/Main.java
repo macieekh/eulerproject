@@ -5,6 +5,7 @@ import pl.euler.problem03.Euler03;
 import pl.euler.problem04.Euler04;
 import pl.euler.problem05.Euler05;
 import pl.euler.problem06.Euler06;
+import pl.euler.problem07.Euler07;
 
 import java.util.Scanner;
 
@@ -14,7 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner console = new Scanner(System.in);
-        long number = -1;
+        /*long number = -1;
 
         while (number < 0) {
             System.out.println("Enter number: ");
@@ -55,7 +56,11 @@ public class Main {
 
         Euler06 euler06 = new Euler06();
         System.out.println(euler06.findDiff(100));
-        System.out.println(euler06.findDiffShort(100));
+        System.out.println(euler06.findDiffShort(100)); */
+
+        Euler07 euler07 = new Euler07();
+        System.out.println(euler07.findPrime(10001));
+
     }
 
     public static long findSum(long number) {
