@@ -24,21 +24,36 @@ public class Euler08 {
 
     long numLength = num.length();
     long max = 0;
-    long maxA = 0;
-    long maxB = 0;
-    long maxC = 0;
-    long maxD = 0;
+    private long maxA = 0;
+    private long maxB = 0;
+    private long maxC = 0;
+    private long maxD = 0;
+
+    public long getMaxA() {
+        return maxA;
+    }
+
+    public long getMaxB() {
+        return maxB;
+    }
+
+    public long getMaxC() {
+        return maxC;
+    }
+
+    public long getMaxD() {
+        return maxD;
+    }
 
     public long Calculate () {
-        for (int i=0; i<numLength-5; i++) {
+        for (int i=0; i<numLength-4; i++) {
             int a = Character.getNumericValue(num.charAt(i));
             int b = Character.getNumericValue(num.charAt(i+1));
             int c = Character.getNumericValue(num.charAt(i+2));
             int d = Character.getNumericValue(num.charAt(i+3));
-            int e = Character.getNumericValue(num.charAt(i+4));
 
-            if (a * b * c * d * e > max) {
-                max = a * b * c * d * e;
+            if (a * b * c * d > max) {
+                max = a * b * c * d;
                 maxA = a;
                 maxB = b;
                 maxC = c;
@@ -47,6 +62,5 @@ public class Euler08 {
         }
         return max;
     }
-
 
 }

@@ -64,6 +64,10 @@ public class Main {
 
         Euler08 euler08 = new Euler08();
         System.out.println(euler08.Calculate());
+        System.out.println(euler08.getMaxA());
+        System.out.println(euler08.getMaxB());
+        System.out.println(euler08.getMaxC());
+        System.out.println(euler08.getMaxD());
 
     }
 
