@@ -6,6 +6,7 @@ import pl.euler.problem04.Euler04;
 import pl.euler.problem05.Euler05;
 import pl.euler.problem06.Euler06;
 import pl.euler.problem07.Euler07;
+import pl.euler.problem08.Euler08;
 
 import java.util.Scanner;
 
@@ -56,10 +57,13 @@ public class Main {
 
         Euler06 euler06 = new Euler06();
         System.out.println(euler06.findDiff(100));
-        System.out.println(euler06.findDiffShort(100)); */
+        System.out.println(euler06.findDiffShort(100));
 
         Euler07 euler07 = new Euler07();
-        System.out.println(euler07.findPrime(10001));
+        System.out.println(euler07.findPrime(10001));*/
+
+        Euler08 euler08 = new Euler08();
+        System.out.println(euler08.Calculate());
 
     }
 
