@@ -36,20 +36,13 @@ public class Euler08 {
             int c = Character.getNumericValue(num.charAt(i+2));
             int d = Character.getNumericValue(num.charAt(i+3));
             int e = Character.getNumericValue(num.charAt(i+4));
-           /* int f = Character.getNumericValue(num.charAt(i+5));
-            int g = Character.getNumericValue(num.charAt(i+6));
-            int h = Character.getNumericValue(num.charAt(i+7));
-            int o = Character.getNumericValue(num.charAt(i+8));
-            int j = Character.getNumericValue(num.charAt(i+9));
-            int k = Character.getNumericValue(num.charAt(i+10));
-            int l = Character.getNumericValue(num.charAt(i+11));
-            int m = Character.getNumericValue(num.charAt(i+12));*/
-            if (a * b * c * d * e /** f * g * h * o * j * k * l * m*/> max) {
-                max = a * b * c * d * e /** f * g * h * o * j * k * l * m*/;
-                /*maxA = a;
+
+            if (a * b * c * d * e > max) {
+                max = a * b * c * d * e;
+                maxA = a;
                 maxB = b;
                 maxC = c;
-                maxD = d;*/
+                maxD = d;
             }
         }
         return max;
