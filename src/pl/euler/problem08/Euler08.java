@@ -1,5 +1,7 @@
 package pl.euler.problem08;
 
+import java.util.List;
+
 public class Euler08 {
     String num = new String("73167176531330624919225119674426574742355349194934\n" +
             "96983520312774506326239578318016984801869478851843\n" +
@@ -22,8 +24,8 @@ public class Euler08 {
             "05886116467109405077541002256983155200055935729725\n" +
             "71636269561882670428252483600823257530420752963450");
 
-    long numLength = num.length();
-    long max = 0;
+    private long numLength = num.length();
+    private long max = 0;
     private long maxA = 0;
     private long maxB = 0;
     private long maxC = 0;
@@ -45,7 +47,7 @@ public class Euler08 {
         return maxD;
     }
 
-    public long Calculate () {
+    public long calculate () {
         for (int i=0; i<numLength-4; i++) {
             int a = Character.getNumericValue(num.charAt(i));
             int b = Character.getNumericValue(num.charAt(i+1));
@@ -62,5 +64,6 @@ public class Euler08 {
         }
         return max;
     }
+
 
 }
