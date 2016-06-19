@@ -7,6 +7,7 @@ import pl.euler.problem05.Euler05;
 import pl.euler.problem06.Euler06;
 import pl.euler.problem07.Euler07;
 import pl.euler.problem08.Euler08;
+import pl.euler.problem09.Euler09;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,7 +70,7 @@ public class Main {
         System.out.println(euler08.getMaxA());
         System.out.println(euler08.getMaxB());
         System.out.println(euler08.getMaxC());
-        System.out.println(euler08.getMaxD()); */
+        System.out.println(euler08.getMaxD());
 
 
         List a1 = new ArrayList();
@@ -84,6 +85,11 @@ public class Main {
         System.out.print("\t" + a1);
         a1.remove(1);
         System.out.print("\t" + a1);
+        */
+
+
+        Euler09 euler09 = new Euler09();
+        System.out.println(euler09.findNumber());
     }
 
     public static long findSum(long number) {
